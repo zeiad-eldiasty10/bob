@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صدقة جارية لروح صديقي</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background: #f8faf9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    /* ===== الهيدر ===== */
+    header {
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+    header h1 {
+      font-size: 40px;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    header p {
+      font-size: 22px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    /* ===== الكونتينر ===== */
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    /* ===== الكروت ===== */
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    }
+    .card h2 {
+      color: #2c3e50;
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+    .card p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    /* ===== الأزرار ===== */
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 30px;
+      background: #27ae60;
+      color: #fff;
+      font-size: 17px;
+      text-decoration: none;
+      border-radius: 12px;
+      transition: all 0.3s;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #219150;
+      transform: scale(1.05);
+    }
+
+    /* ===== الفوتر ===== */
+    footer {
+      margin-top: 60px;
+      padding: 25px;
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>صدقة جارية على روح (الدكتور محبوب فتحي)</h1>
+    <p>اللهم اجعل قبره روضة من رياض الجنة</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>📖 القرآن الكريم</h2>
+      <p>يمكنك قراءة القرآن الكريم أو الاستماع للتلاوات بنية إهداء الثواب لروح فقيدنا.</p>
+      <a href="quran.html" class="btn">اقرأ القرآن</a>
+    </div>
+
+    <div class="card">
+      <h2>🤲 الأدعية</h2>
+      <p>اللهم اغفر له وارحمه، وعافه واعف عنه، واجعل قبره روضة من رياض الجنة.</p>
+      <a href="1.html" class="btn">المزيد من الأدعية</a>
+    </div>
+
+    <div class="card">
+      <h2>💚 صدقة جارية</h2>
+      <p>يمكنك التبرع بمبلغ مالي لصدقة جارية بنية إهداء الثواب لروح فقيدنا.</p>    
+      <a href="2.html" class="btn">شارك في الأجر</a>
+    </div>
+  </div>
+
+  <footer>
+    نسأل الله أن يتقبل هذه الأعمال ويجعلها في ميزان حسنات فقيدنا محبوب ❤️
+  </footer>
+</body>
+</html>
